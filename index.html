@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Mania</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+</head>
+<body>
+    
+    <header class="header">
+        <a href="#" class="logo">Cafe Mania<i class="fas fa-mug-hot"></i></a>
+
+        <nav class="navbar">
+            <a href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#Menu">Menu</a>
+            <a href="#Review">Reviews</a>
+            <!-- <a href="#Contact">Contact us</a> -->
+        </nav>
+
+        <!-- <a href="#" class="btn">Buy One Now</a> -->
+        <input type="checkbox" id="popup" checked='true' onclick="popupClicker()">
+        <label for="popup" class="btn">Buy One Now</label>
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+    </header>
+
+    <section class="popup">
+        <img src="./img/closeup-coffee-bean-crack.jpg" alt="Beans Over " class="popup-img">
+        <h1 class="popup-head">
+            Sorry!
+        </h1>
+        <h2 class="popup-title">
+            We are out of beans
+        </h2>
+        <div class="popup-line"></div>
+        <label for="popup" class="popup-close">Close</label>
+    </section>
+
+    <section class="home" id="Home">
+
+        <div class="row">
+
+            <div class="content">
+                <h3>Fresh Coffee in the morning</h3>
+                <label for="popup" class="btn">Buy One Now</label>
+            </div>
+
+            <div class="image">
+                <img src="img/home-img-1.png" alt="Coffee Image" class="main-home-image">
+            </div>
+        </div>
+
+        <div class="image-slider">
+            <img src="img/home-img-1.png" alt="">
+            <img src="img/home-img-2.png" alt="">
+            <img src="img/home-img-3.png" alt="">
+        </div>
+        
+    </section>
+
+
+    <section class="about" id="About">
+
+        <h1 class="heading">about us<span>why choose us</span></h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="img/about-img.png" alt="About image">
+            </div>
+
+            <div class="content">
+                <h3 class="title">what's make your coffee special!</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae saepe sequi asperiores, dolor aut blanditiis doloremque molestiae quis voluptas magnam? Et eligendi commodi in repudiandae recusandae ut dolorum tempore sit!</p>
+                <a href="#" class="btn">Read More</a>
+                <div class="icons-container">
+                    <div class="icons">
+                        <img src="img/about-icon-1.png" alt="Quality Coffee">
+                        <h3>Quality Coffee</h3>
+                    </div>
+                    <div class="icons">
+                        <img src="img/about-icon-2.png" alt="Our Branches">
+                        <h3>Our Branches</h3>
+                    </div>
+                    <div class="icons">
+                        <img src="img/about-icon-3.png" alt="Free Dilivery">
+                        <h3>Free Dilivery</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="menu" id="Menu">
+
+        <h1 class="heading">Our Menu<span>Popular Menu</span></h1>
+
+        <div class="box-container">
+
+            <a href="#" class="box">
+                <img src="img/menu-1.png" alt="Menu 1">
+                <div class="content">
+                    <h3>Our Special Coffee</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, modi?</p>
+                    <span>$10.00</span>
+                </div>
+            </a>
+            <a href="#" class="box">
+                <img src="img/menu-2.png" alt="Menu 1">
+                <div class="content">
+                    <h3>Our Special Coffee</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, modi?</p>
+                    <span>$10.00</span>
+                </div>
+            </a>
+            <a href="#" class="box">
+                <img src="img/menu-3.png" alt="Menu 1">
+                <div class="content">
+                    <h3>Our Special Coffee</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, modi?</p>
+                    <span>$10.00</span>
+                </div>
+            </a>
+            <a href="#" class="box">
+                <img src="img/menu-4.png" alt="Menu 1">
+                <div class="content">
+                    <h3>Our Special Coffee</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, modi?</p>
+                    <span>$10.00</span>
+                </div>
+            </a>
+            <a href="#" class="box">
+                <img src="img/menu-5.png" alt="Menu 1">
+                <div class="content">
+                    <h3>Our Special Coffee</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, modi?</p>
+                    <span>$10.00</span>
+                </div>
+            </a>
+            <a href="#" class="box">
+                <img src="img/menu-6.png" alt="Menu 1">
+                <div class="content">
+                    <h3>Our Special Coffee</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, modi?</p>
+                    <span>$10.00</span>
+                </div>
+            </a>
+
+        </div>
+
+    </section>
+
+    <section class="Review" id="Review">
+
+        <h1 class="heading">Review<span>What People Says</span></h1>
+
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <i class="fas fa-quote-left"></i>
+                    <i class="fas fa-quote-right"></i>
+                    <img src="img/pic-1.png" alt="Review Image">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui totam, perspiciatis nihil dolore laborum fugit?</p>
+                    <h3>John Deo</h3>
+                    <span>Staisfied Client</span>
+                </div>
+                <div class="swiper-slide box">
+                    <i class="fas fa-quote-left"></i>
+                    <i class="fas fa-quote-right"></i>
+                    <img src="img/pic-2.png" alt="Review Image">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui totam, perspiciatis nihil dolore laborum fugit?</p>
+                    <h3>John Deo</h3>
+                    <span>Staisfied Client</span>
+                </div>
+                <div class="swiper-slide box">
+                    <i class="fas fa-quote-left"></i>
+                    <i class="fas fa-quote-right"></i>
+                    <img src="img/pic-3.png" alt="Review Image">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui totam, perspiciatis nihil dolore laborum fugit?</p>
+                    <h3>John Deo</h3>
+                    <span>Staisfied Client</span>
+                </div>
+                <div class="swiper-slide box">
+                    <i class="fas fa-quote-left"></i>
+                    <i class="fas fa-quote-right"></i>
+                    <img src="img/pic-4.png" alt="Review Image">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui totam, perspiciatis nihil dolore laborum fugit?</p>
+                    <h3>John Deo</h3>
+                    <span>Staisfied Client</span>
+                </div>
+                
+                <div class="swiper-pagination"></div>
+                
+            </div>
+        </div>
+    </section>
+
+    <footer class="foot">
+        <div class="logo-footer footer-content">
+            <a href="#" class="logo">Cafe Mania<i class="fas fa-mug-hot"></i></a>
+        </div>
+        <div class="support-footer footer-content">
+            <a href="mailto:support@cafemania.in">support@cafemania.in</a>
+        </div>
+    </footer>
+
+
+
+
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+</body>
+</html>
